@@ -1,0 +1,194 @@
+/*  the custome body of website */
+body {
+  box-sizing: border-box;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(66, 66, 168) 0%, rgb(66, 66, 168) 35%, rgb(221, 76, 66) 100%);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* the custome classname in App.js */
+.content {
+  padding: 30px;
+}
+
+/* the custome classname in App.js */
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 10px;
+  height: 100%;
+  list-style: none;
+  background: #48494b;
+  border-bottom: 3px solid rgb(0, 0, 0);
+  box-shadow: 0px 5px 7px #4C4C4B;
+}
+
+h1 {
+    color: rgb(219, 200, 27);
+     text-transform:uppercase;
+  font-size:50px;
+  font-family:'Verdana';
+  padding:30px;
+  
+    
+}
+
+
+.header a {
+  font-size: 2rem;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: auto;
+  text-shadow: 2.4px 2.5px #ec9f11;
+}
+
+.header .active {
+  color: #010500;
+}
+
+/* the custome classname in Login.js */
+.log {
+  font-size: 1.5rem;
+  padding: 30px;
+  background: #6969697a;
+  text-align:center
+  
+}
+.log a {
+  color: #023c92;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.log a:hover {
+  color: #f8f8f8;
+}
+
+.log .active {
+  color: #00ff00;
+}
+
+.logout {
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  justify-content: center;
+  position: absolute;
+  top: 140%;
+  left: 90%;
+}
+
+/* the custome classname in Home.js and Dashboard.js */
+main .greet{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 10%;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translateX(-10%);
+  transform: translateY(-50%);
+}
+
+
+
+.greet h1{
+  font-size: 45px;
+  color: #423928;
+  margin-bottom: 1rem;
+  text-shadow: 3px 3px #ec9f11;
+  text-decoration: underline;
+}
+
+.greet h2{
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-shadow: 3px 3px #ec9f11;
+}
+
+main .hs{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main .hs .jpg{
+  object-fit: contain;
+  height: 350px;
+  width: auto;
+  position: absolute;
+  left: 55%;
+  bottom: 20%;
+  box-shadow: 10px 10px #968c0683;
+}
+
+.logout{
+  top: 10rem  ;
+  
+  
+}.bg1{
+  margin-left: 2cm;
+  width: 15cm;
+  height: 10cm;
+  border-style: solid;
+}
+.bg2{
+  margin-left: 2ch;
+  width: 15cm;
+  height: 10cm;
+  border-style: solid;
+}
+
+.carousel-item{
+  background-image: url(./Image/bg1.jpg);
+}
+.bg3{
+  margin-left: 2ch;
+  width: 15cm;
+  height: 10cm;
+  border-style: solid;
+}
+.bg4{
+  margin-left: 2cm;
+  margin-top: 1cm;
+  width: 15cm;
+  height: 10cm;
+  border-style: solid;
+}
+.bg5{
+  margin-left: 2ch;
+  margin-top: 1cm;
+  width: 15cm;
+  height: 10cm;
+  border-style: solid;
+}
+.bg6{
+  margin-left: 2ch;
+  margin-top: 1cm;
+  width: 15cm;
+  height: 10cm;
+  border-style: solid;
+}
+.carousel-caption text-start{
+  background-image: url(./Image/bg1.jpg);
+}
